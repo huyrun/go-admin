@@ -6,19 +6,19 @@ import (
 	"os/signal"
 	"time"
 
-	_ "github.com/GoAdminGroup/go-admin/adapter/gf2"
-	_ "github.com/GoAdminGroup/go-admin/modules/db/drivers/mysql"
+	_ "github.com/huyrun/go-admin/adapter/gf2"
+	_ "github.com/huyrun/go-admin/modules/db/drivers/mysql"
 
-	"github.com/GoAdminGroup/go-admin/engine"
-	"github.com/GoAdminGroup/go-admin/examples/datamodel"
-	"github.com/GoAdminGroup/go-admin/modules/config"
+	"github.com/huyrun/go-admin/engine"
+	"github.com/huyrun/go-admin/examples/datamodel"
+	"github.com/huyrun/go-admin/modules/config"
 
-	"github.com/GoAdminGroup/go-admin/modules/language"
-	"github.com/GoAdminGroup/go-admin/plugins/example"
-	"github.com/GoAdminGroup/go-admin/template"
-	"github.com/GoAdminGroup/go-admin/template/chartjs"
 	"github.com/GoAdminGroup/themes/adminlte"
 	"github.com/gogf/gf/v2/frame/g"
+	"github.com/huyrun/go-admin/modules/language"
+	"github.com/huyrun/go-admin/plugins/example"
+	"github.com/huyrun/go-admin/template"
+	"github.com/huyrun/go-admin/template/chartjs"
 )
 
 func main() {

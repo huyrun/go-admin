@@ -18,7 +18,7 @@ func (postgresql) GetName() string {
 }
 
 func (postgresql) ShowColumnsWithComment(schema, table string) string {
-	tableArr := strings.Split(table, "\".\"")
+	tableArr := strings.Split(table, ".")
 	if len(tableArr) > 1 {
 		return fmt.Sprintf("select * from information_schema.columns where table_name = '%s' and table_schema = '%s'", tableArr[1], tableArr[0])
 	} else {
@@ -31,7 +31,7 @@ func (postgresql) ShowTables() string {
 }
 
 func (postgresql) ShowColumns(table string) string {
-	tableArr := strings.Split(table, "\".\"")
+	tableArr := strings.Split(table, ".")
 	if len(tableArr) > 1 {
 		return fmt.Sprintf("select * from information_schema.columns where table_name = '%s' and table_schema = '%s'", tableArr[1], tableArr[0])
 	} else {

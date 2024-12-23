@@ -2,32 +2,32 @@ package chi
 
 import (
 	// add chi adapter
-	_ "github.com/GoAdminGroup/go-admin/adapter/chi"
-	"github.com/GoAdminGroup/go-admin/modules/config"
-	"github.com/GoAdminGroup/go-admin/modules/language"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/table"
+	_ "github.com/huyrun/go-admin/adapter/chi"
+	"github.com/huyrun/go-admin/modules/config"
+	"github.com/huyrun/go-admin/modules/language"
+	"github.com/huyrun/go-admin/plugins/admin/modules/table"
 
 	// add mysql driver
-	_ "github.com/GoAdminGroup/go-admin/modules/db/drivers/mysql"
+	_ "github.com/huyrun/go-admin/modules/db/drivers/mysql"
 	// add postgresql driver
-	_ "github.com/GoAdminGroup/go-admin/modules/db/drivers/postgres"
+	_ "github.com/huyrun/go-admin/modules/db/drivers/postgres"
 	// add sqlite driver
-	_ "github.com/GoAdminGroup/go-admin/modules/db/drivers/sqlite"
+	_ "github.com/huyrun/go-admin/modules/db/drivers/sqlite"
 	// add mssql driver
-	_ "github.com/GoAdminGroup/go-admin/modules/db/drivers/mssql"
+	_ "github.com/huyrun/go-admin/modules/db/drivers/mssql"
 	// add adminlte ui theme
 	"github.com/GoAdminGroup/themes/adminlte"
 
 	"net/http"
 	"os"
 
-	"github.com/GoAdminGroup/go-admin/engine"
-	"github.com/GoAdminGroup/go-admin/plugins/admin"
-	"github.com/GoAdminGroup/go-admin/plugins/example"
-	"github.com/GoAdminGroup/go-admin/template"
-	"github.com/GoAdminGroup/go-admin/template/chartjs"
-	"github.com/GoAdminGroup/go-admin/tests/tables"
 	"github.com/go-chi/chi"
+	"github.com/huyrun/go-admin/engine"
+	"github.com/huyrun/go-admin/plugins/admin"
+	"github.com/huyrun/go-admin/plugins/example"
+	"github.com/huyrun/go-admin/template"
+	"github.com/huyrun/go-admin/template/chartjs"
+	"github.com/huyrun/go-admin/tests/tables"
 )
 
 func internalHandler() http.Handler {

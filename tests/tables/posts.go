@@ -1,13 +1,13 @@
 package tables
 
 import (
-	"github.com/GoAdminGroup/go-admin/context"
-	"github.com/GoAdminGroup/go-admin/modules/db"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/table"
-	"github.com/GoAdminGroup/go-admin/template"
-	"github.com/GoAdminGroup/go-admin/template/types"
-	"github.com/GoAdminGroup/go-admin/template/types/form"
-	editType "github.com/GoAdminGroup/go-admin/template/types/table"
+	"github.com/huyrun/go-admin/context"
+	"github.com/huyrun/go-admin/modules/db"
+	"github.com/huyrun/go-admin/plugins/admin/modules/table"
+	"github.com/huyrun/go-admin/template"
+	"github.com/huyrun/go-admin/template/types"
+	"github.com/huyrun/go-admin/template/types/form"
+	editType "github.com/huyrun/go-admin/template/types/table"
 )
 
 // GetPostsTable return the model of table posts.

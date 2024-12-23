@@ -11,14 +11,14 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/GoAdminGroup/go-admin/adapter"
-	"github.com/GoAdminGroup/go-admin/context"
-	"github.com/GoAdminGroup/go-admin/engine"
-	"github.com/GoAdminGroup/go-admin/modules/config"
-	"github.com/GoAdminGroup/go-admin/plugins"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/models"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/constant"
-	"github.com/GoAdminGroup/go-admin/template/types"
+	"github.com/huyrun/go-admin/adapter"
+	"github.com/huyrun/go-admin/context"
+	"github.com/huyrun/go-admin/engine"
+	"github.com/huyrun/go-admin/modules/config"
+	"github.com/huyrun/go-admin/plugins"
+	"github.com/huyrun/go-admin/plugins/admin/models"
+	"github.com/huyrun/go-admin/plugins/admin/modules/constant"
+	"github.com/huyrun/go-admin/template/types"
 	"github.com/labstack/echo/v4"
 )
 
