@@ -333,13 +333,13 @@ func (tb *DefaultTable) getTempModelData(res map[string]interface{}, params para
 		}
 
 		if field.IsEditParam {
-			editParams += "__goadmin_edit_" + field.Field + "=" + valueStr + "&"
+			editParams += "__goadmin_edit_" + field.Field + "=" + combineValue + "&"
 		}
 		if field.IsDeleteParam {
-			deleteParams += "__goadmin_delete_" + field.Field + "=" + valueStr + "&"
+			deleteParams += "__goadmin_delete_" + field.Field + "=" + combineValue + "&"
 		}
 		if field.IsDetailParam {
-			detailParams += "__goadmin_detail_" + field.Field + "=" + valueStr + "&"
+			detailParams += "__goadmin_detail_" + field.Field + "=" + combineValue + "&"
 		}
 	}
 
