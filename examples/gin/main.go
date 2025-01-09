@@ -7,11 +7,10 @@ import (
 	"os/signal"
 	"time"
 
-	_ "github.com/GoAdminGroup/themes/sword"
 	_ "github.com/huyrun/go-admin/adapter/gin"
 	_ "github.com/huyrun/go-admin/modules/db/drivers/mysql"
+	_ "github.com/huyrun/themes/sword"
 
-	"github.com/GoAdminGroup/themes/adminlte"
 	"github.com/gin-gonic/gin"
 	"github.com/huyrun/go-admin/engine"
 	"github.com/huyrun/go-admin/examples/datamodel"
@@ -20,6 +19,7 @@ import (
 	"github.com/huyrun/go-admin/plugins/example"
 	"github.com/huyrun/go-admin/template"
 	"github.com/huyrun/go-admin/template/chartjs"
+	"github.com/huyrun/themes/adminlte"
 )
 
 func main() {

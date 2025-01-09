@@ -19,7 +19,7 @@ import (
 	// add mssql driver
 	_ "github.com/huyrun/go-admin/modules/db/drivers/mssql"
 	// add adminlte ui theme
-	"github.com/GoAdminGroup/themes/adminlte"
+	"github.com/huyrun/themes/adminlte"
 
 	"net/http"
 	"os"

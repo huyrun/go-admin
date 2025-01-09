@@ -9,7 +9,6 @@ import (
 	_ "github.com/huyrun/go-admin/adapter/beego2"
 	_ "github.com/huyrun/go-admin/modules/db/drivers/mysql"
 
-	"github.com/GoAdminGroup/themes/adminlte"
 	"github.com/beego/beego/v2/server/web"
 	"github.com/huyrun/go-admin/engine"
 	"github.com/huyrun/go-admin/examples/datamodel"
@@ -18,6 +17,7 @@ import (
 	"github.com/huyrun/go-admin/plugins/example"
 	"github.com/huyrun/go-admin/template"
 	"github.com/huyrun/go-admin/template/chartjs"
+	"github.com/huyrun/themes/adminlte"
 )
 
 func main() {

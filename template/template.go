@@ -158,7 +158,8 @@ func Default(ctx ...*context.Context) Template {
 			}
 		}
 	}
-	if temp, ok := templateMap[c.GetTheme()]; ok {
+	theme := c.GetTheme()
+	if temp, ok := templateMap[theme]; ok {
 		return temp
 	}
 	panic("wrong theme name")

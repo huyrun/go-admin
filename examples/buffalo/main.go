@@ -10,7 +10,6 @@ import (
 	_ "github.com/huyrun/go-admin/adapter/buffalo"
 	_ "github.com/huyrun/go-admin/modules/db/drivers/mysql"
 
-	"github.com/GoAdminGroup/themes/adminlte"
 	"github.com/gobuffalo/buffalo"
 	"github.com/huyrun/go-admin/engine"
 	"github.com/huyrun/go-admin/examples/datamodel"
@@ -19,6 +18,7 @@ import (
 	"github.com/huyrun/go-admin/plugins/example"
 	"github.com/huyrun/go-admin/template"
 	"github.com/huyrun/go-admin/template/chartjs"
+	"github.com/huyrun/themes/adminlte"
 )
 
 func main() {

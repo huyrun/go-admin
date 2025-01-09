@@ -3,17 +3,17 @@ package datamodel
 import (
 	"html/template"
 
-	"github.com/GoAdminGroup/themes/adminlte/components/chart_legend"
-	"github.com/GoAdminGroup/themes/adminlte/components/description"
-	"github.com/GoAdminGroup/themes/adminlte/components/infobox"
-	"github.com/GoAdminGroup/themes/adminlte/components/productlist"
-	"github.com/GoAdminGroup/themes/adminlte/components/progress_group"
-	"github.com/GoAdminGroup/themes/adminlte/components/smallbox"
 	"github.com/huyrun/go-admin/context"
 	tmpl "github.com/huyrun/go-admin/template"
 	"github.com/huyrun/go-admin/template/chartjs"
 	"github.com/huyrun/go-admin/template/icon"
 	"github.com/huyrun/go-admin/template/types"
+	"github.com/huyrun/themes/adminlte/components/chart_legend"
+	"github.com/huyrun/themes/adminlte/components/description"
+	"github.com/huyrun/themes/adminlte/components/infobox"
+	"github.com/huyrun/themes/adminlte/components/productlist"
+	"github.com/huyrun/themes/adminlte/components/progress_group"
+	"github.com/huyrun/themes/adminlte/components/smallbox"
 )
 
 // GetContent return the content of index page.

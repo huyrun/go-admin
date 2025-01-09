@@ -13,12 +13,12 @@ import (
 	"github.com/huyrun/go-admin/examples/datamodel"
 	"github.com/huyrun/go-admin/modules/config"
 
-	"github.com/GoAdminGroup/themes/adminlte"
 	"github.com/gogf/gf/v2/frame/g"
 	"github.com/huyrun/go-admin/modules/language"
 	"github.com/huyrun/go-admin/plugins/example"
 	"github.com/huyrun/go-admin/template"
 	"github.com/huyrun/go-admin/template/chartjs"
+	"github.com/huyrun/themes/adminlte"
 )
 
 func main() {
