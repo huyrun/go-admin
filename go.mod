@@ -21,7 +21,7 @@ require (
 	github.com/gogf/gf/v2 v2.6.4
 	github.com/google/uuid v1.6.0
 	github.com/gorilla/mux v1.8.0
-	github.com/huyrun/themes v0.0.0-20250106103951-03aa6aa8538f
+	github.com/huyrun/themes v1.0.0
 	github.com/kataras/iris/v12 v12.2.10
 	github.com/labstack/echo/v4 v4.11.4
 	github.com/lib/pq v1.10.5
